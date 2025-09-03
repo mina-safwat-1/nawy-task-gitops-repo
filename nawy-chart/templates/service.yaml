@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nawy-service
+spec:
+  type: {{ .Values.service.type }}
+  selector:
+    app: nawy
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}
