@@ -50,7 +50,7 @@ You can customize the deployment by editing `values.yaml`:
 ### Deployment
 
 ```bash
-helm install nawy-task ./charts/nawy-task
+helm install nawy-task nawy-chart
 ```
 
 
