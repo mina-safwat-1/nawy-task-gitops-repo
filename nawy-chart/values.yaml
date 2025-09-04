@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
   repository: mina1402/nawy-task
-  tag: sha-4246137
+  tag: sha-ad2c65e
 service:
   type: ClusterIP
   port: 80
