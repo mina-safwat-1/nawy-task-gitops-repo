@@ -12,5 +12,5 @@ service:
 
 
 ingress:
-  host: www.itiproject.com
+  host: www.itiproject.site
   path: /
