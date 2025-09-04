@@ -1,16 +1,11 @@
 replicaCount: 2
-
 image:
   repository: mina1402/nawy-task
-  tag: latest
-
-
+  tag: mina1402/nawy-task:sha-1ff15ef
 service:
   type: ClusterIP
   port: 80
   targetPort: 3000
-
-
 ingress:
   host: www.itiproject.site
   path: /
